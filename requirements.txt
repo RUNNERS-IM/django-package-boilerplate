@@ -1,3 +1,7 @@
+# Python
+requests
+
+# Django
 Django
 django-filter
 djangorestframework
