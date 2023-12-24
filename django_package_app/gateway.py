@@ -34,7 +34,7 @@ class BaseGateway:
         return response.json()
 
 
-class Gateway1(BaseGateway):
+class GatewayV1(BaseGateway):
     def __init__(self):
         super().__init__(base_url=urljoin(settings.GATEWAY1_HOST, f'/api/'))
 
@@ -51,4 +51,4 @@ class Gateway1(BaseGateway):
 
 
 # Instances
-gateway1 = Gateway1()
+package_sdk = GatewayV1()
