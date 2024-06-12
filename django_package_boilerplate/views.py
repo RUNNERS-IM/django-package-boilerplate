@@ -6,8 +6,8 @@ from rest_framework.viewsets import GenericViewSet
 from django_filters.rest_framework import DjangoFilterBackend
 
 # App
-from django_package_app import serializers, pagination
-from django_package_app.models import ModelName
+from django_package_boilerplate import serializers, pagination
+from django_package_boilerplate.models import ModelName
 
 # Variables
 name_search_fields = ['name', 'name_en', 'name_ja', 'name_ko']

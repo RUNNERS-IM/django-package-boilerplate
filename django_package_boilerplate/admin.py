@@ -2,7 +2,7 @@
 from django.contrib import admin, messages
 
 # App
-from django_package_app import models
+from django_package_boilerplate import models
 
 
 # Main Section

@@ -1,4 +1,5 @@
 # django-package-boilerplate
+**Current version: 0.1.0**
 
 ## 1. Installation
 
@@ -6,7 +7,7 @@ The preferred installation method is directly from pypi:
 
 ```bash
 # Create promgen setting directory.
-$ pip install -U django-package-app
+$ pip install -U django-package-boilerplate
 ```
 
 ## 2. Quickstart
@@ -16,7 +17,7 @@ In ``settings.py``:
 ```python
 INSTALLED_APPS = [
     ...,
-    'django_package_app'
+    'django_package_boilerplate'
 ]
 ```
 
@@ -27,7 +28,7 @@ from django.urls import path, include
 
 urlpatterns = [
     ...,
-    path('django_package_app/', include('django_package_app.urls')),
+    path('django_package_app/', include('django_package_boilerplate.urls')),
 ]
 ```
 
@@ -45,7 +46,7 @@ $ python manage.py migrate
 In ``setup.cfg``, upgrade version
 ```
 [metadata]
-name = django-package-app
+name = django-package-boilerplate
 version = x.x.x
 ...
 ```
@@ -57,7 +58,7 @@ $ python setup.py sdist bdist_wheel
 
 Deploy package
 ```bash
-$ twine upload --verbose dist/django-package-app-x.x.x.tar.gz
+$ twine upload --verbose dist/django-package-boilerplate-x.x.x.tar.gz
 ```
 
 ## The MIT License

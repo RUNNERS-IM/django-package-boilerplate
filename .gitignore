@@ -325,7 +325,6 @@ superclub/media/
 
 .pytest_cache/
 
-.env
 .envs
 .ebextensions/03-branch-environments.config
 .scripts

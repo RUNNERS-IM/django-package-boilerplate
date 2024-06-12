@@ -1,21 +1,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="django-nice-auth",
+    name="django-package-boilerplate",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
         "django>=3.0",
         "requests",
-        "pycryptodome",
-        "nice_auth",
     ],
-    author="RUNNERS",
+    author="Runners Co., Ltd.",
     author_email="dev@runners.im",
-    description="A Django app for NICE authentication",
+    description="A boilerplate Django app package for easy integration",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/RUNNERS-IM/django-nice-auth",
+    url="https://github.com/RUNNERS-IM/django-package-boilerplate",
     classifiers=[
         "Framework :: Django",
         "Programming Language :: Python :: 3",
