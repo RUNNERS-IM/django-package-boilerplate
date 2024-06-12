@@ -1,6 +1,8 @@
 # django-package-boilerplate
 **Current version: 0.1.1**
 
+Boilerplate for a Django Package
+
 ## 1. Installation
 
 The preferred installation method is directly from pypi:
