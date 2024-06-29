@@ -1,5 +1,5 @@
 # django-package-boilerplate
-**Current version: 0.1.2**
+**Current version: 0.1.3**
 
 Boilerplate for a Django Package
 
